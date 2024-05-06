@@ -1,0 +1,51 @@
+.container{
+    width: 65%;
+    height: 65vh;
+    background-color: rgb(226, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 8%;
+}
+.one,
+.two,
+.three,
+.four{
+    background-color: aqua;
+    width: 15%;
+    height: 45%;
+    margin:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    transition:  1.5s ease;
+}
+.one{
+    background-color: orangered;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: rgb(145, 32, 32);
+}
+.four{
+    background-color: rgb(129, 48, 129);
+}
+.two,
+.four{
+    align-self: flex-end;
+}
+.two:hover,
+.four:hover{
+   translate: 239px 0px;
+     
+}
+.one:hover,
+.three:hover{
+    translate: -239px 0px;
+     
+}
